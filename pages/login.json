@@ -2,6 +2,7 @@
   "type": "page",
   "remark": null,
   "url": "/login",
+  "data": {"showNav": false},
   "body": {
     "type": "grid-2d",
     "grids": [

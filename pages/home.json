@@ -1,5 +1,6 @@
 {
   "type": "wrapper",
+  "data": {"showNav": true},
   "body": [
     {
       "type": "page",
@@ -143,13 +144,6 @@
           }
         }
       ]
-    },{
-      "columnNum": 3,
-      "type": "grid-nav",
-      "iconRatio": 30,
-      "source": "${navItems}",
-      "border": false,
-      "className": "foot-nav"
     }
   ]
 }

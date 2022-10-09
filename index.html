@@ -52,7 +52,17 @@
 
         const app ={
           type: 'app',
-          api: '/pages/site.json'
+          api: '/pages/site.json',
+          footer: {
+            "columnNum": 3,
+            "type": "grid-nav",
+            "iconRatio": 30,
+            "source": "${navItems}",
+            "border": false,
+            "className": "foot-nav",
+            "visibleOn": "this.showNav "
+
+          }
         };
 
         function normalizeLink(to, location = history.location) {

@@ -1,0 +1,37 @@
+{
+  "type": "wrapper",
+  "data": {"showNav": true},
+  "body": [
+    {
+      "type": "page",
+      "title": "",
+      "asideResizor": false,
+      "pullRefresh": {
+        "disabled": true
+      },
+      "className": "home-wrapper",
+      "body": [
+        {
+          "type": "grid-2d",
+          "gap": 10,
+          "rowGap": 10,
+          "grids": [
+            {
+              "x": 1,
+              "y": 1,
+              "h": 1,
+              "w": 2,
+              "type": "tpl",
+              "tpl": "user "
+            }
+          ]
+        },{
+          "type": "wrapper",
+          "style": {
+            "height": 57.5
+          }
+        }
+      ]
+    }
+  ]
+}
