@@ -1,0 +1,144 @@
+{
+  "type": "page",
+  "title": "",
+  "id": "u:15ee6f01fcd9",
+  "asideResizor": false,
+  "pullRefresh": {
+    "disabled": true
+  },
+  "body": [
+    {
+      "type": "grid-2d",
+      "gap": 10,
+      "rowGap": 10,
+      "grids": [
+        {
+          "x": 1,
+          "y": 1,
+          "h": 1,
+          "w": 2,
+          "type": "avatar",
+          "showtype": "image",
+          "icon": "",
+          "fit": "cover",
+          "style": {
+            "width": 40,
+            "height": 40,
+            "borderRadius": 20
+          },
+          "id": "u:99d20bb5d164",
+          "md": 1
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "h": 1,
+          "w": 10,
+          "type": "tpl",
+          "tpl": "张三张三",
+          "inline": true,
+          "wrapperComponent": "h2",
+          "id": "u:ad603ed905ef",
+          "md": 10,
+          "className": "header-username"
+        },
+        {
+          "x": 5,
+          "y": 3,
+          "h": 5,
+          "w": 8,
+          "type": "image",
+          "src": "/public/logo.png",
+          "className": "login-logo"
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "h": 2,
+          "w": 4,
+          "type": "card",
+          "header": {
+            "title": "设备数量"
+          },
+          "body":  "<div><span class='num'>26</span><div class='icon'></div></div>",
+          "className": "home-card "
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "h": 2,
+          "w": 4,
+          "type": "card",
+          "header": {
+            "title": "告警信息"
+          },
+          "body":  "<div><span class='num'>26</span><div class='icon'></div></div>",
+          "className": "home-card card-gj"
+        },
+        {
+          "x": 1,
+          "y": 8,
+          "h": 1,
+          "w": 12,
+          "type": "tpl",
+          "tpl": "设备状态",
+          "inline": true,
+          "wrapperComponent": "h2",
+          "id": "u:ad603ed905ef",
+          "md": 10,
+          "style": {
+            "fontWeight": "bold"
+          }
+        },
+        {
+          "x": 1,
+          "y": 10,
+          "h": 4,
+          "w": 4,
+          "type": "card",
+          "header": {
+            "avatarText": "test"
+          },
+          "body":  "<div><span class='num2'>25</span><div class='text'>空闲</div></div>",
+          "className": "home-card card2"
+        },
+        {
+          "x": 5,
+          "y": 10,
+          "h": 4,
+          "w": 4,
+          "type": "card",
+          "header": {
+            "avatarText": "test"
+          },
+          "body":  "<div><span class='num2'>25</span><div class='text'>空闲</div></div>",
+          "className": "home-card card2"
+        },
+        {
+          "x": 9,
+          "y": 10,
+          "h": 4,
+          "w": 4,
+          "type": "card",
+          "header": {
+            "avatarText": "test"
+          },
+          "body":  "<div><span class='num2'>25</span><div class='text'>空闲</div></div>",
+          "className": "home-card card2"
+        },
+        {
+          "x": 1,
+          "y": 13,
+          "h": 1,
+          "w": 12,
+          "label": "扫码",
+          "type": "button",
+          "level": "primary",
+          "size": "lg",
+          "className": "scan-btn"
+        }
+      ],
+      "id": "u:6d6ce8066805"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": 0,
+  "msg": "",
+  "data": {
+    "baseUrl" : "http://localhost:8080",
+    "pages": [
+      {
+        "label": "login",
+        "url": "/",
+        "redirect": "/login"
+      },
+      {
+        "label": "登录",
+        "url": "/login",
+        "schemaApi": "get:/pages/login.json"
+      },{
+        "label": "首页",
+        "schemaApi": "get:/pages/home.json",
+        "url": "/home"
+      }
+    ]
+  }
+}

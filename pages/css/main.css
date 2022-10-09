@@ -1,0 +1,72 @@
+.login-input .cxd-TextControl-input{
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.login-btn {
+    border-radius: 20px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+.login-text{
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 40px auto;
+}
+.login-logo{
+    margin-left: calc((100% - 6.875rem)/2 - 10px);
+}
+.header-username{
+    margin: 10px;
+}
+#root{
+    --Layout-header-height: 0!important;
+}
+.cxd-Layout-header{
+    display: none;
+}
+.cxd-AppBcn{
+    display: none;
+}
+.home-card .cxd-TplField>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-card .num{
+    font-size:25px;
+    font-weight:bold;
+    color: dimgray;
+}
+.home-card .icon{
+    position: absolute;
+    right: 17px;
+    bottom: 22px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+}
+.home-card{
+    margin-top: -30px;
+    border-radius: 7px !important;
+}
+.card2{
+
+}
+.card2 .num2{
+    color: black;
+}
+.card2 .text{
+    font-size: 15px;
+    color: dimgray;
+}
+.card-gj{
+    margin-top: -10px;
+}
+.scan-btn{
+    border-radius: 20px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+}

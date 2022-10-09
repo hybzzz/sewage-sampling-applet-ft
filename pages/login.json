@@ -1,0 +1,63 @@
+{
+  "type": "page",
+  "remark": null,
+  "url": "/login",
+  "body": {
+    "type": "grid-2d",
+    "grids": [
+      {
+        "x": 1,
+        "y": 4,
+        "h": 10,
+        "w": 12,
+        "type": "page",
+        "mode": "horizontal",
+        "api": "/login",
+        "body": [
+          {
+            "type": "image",
+            "src": "/public/logo.png",
+            "className": "login-logo"
+          },
+          {
+            "type": "tpl",
+            "tpl": "在线智能污水采样",
+            "className": "login-text"
+          },
+          {
+            "type": "input-text",
+            "name": "username",
+            "prefix": "账号: ",
+            "size": "lg",
+            "className": "login-input"
+          },
+          {
+            "type": "input-password",
+            "name": "password",
+            "prefix": "密码: ",
+            "size": "lg",
+            "className": "login-input"
+          },
+          {
+            "label": "登录",
+            "type": "button",
+            "actionType": "ajax",
+            "api": {
+              "url": "/pages/mock/login.json",
+              "method": "get",
+              "data": {
+                "username": "${username}",
+                "password": "${password}"
+              }
+
+            },
+            "redirect": "/home",
+            "level": "primary",
+            "size": "lg",
+            "className": "login-btn"
+          }
+        ]
+      }
+    ]
+  }
+}
