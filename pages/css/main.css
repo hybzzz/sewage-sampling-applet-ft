@@ -41,8 +41,8 @@
 }
 .home-card .icon{
     position: absolute;
-    right: 17px;
-    bottom: 22px;
+    right: 12px;
+    bottom: 20px;
     margin-bottom: 5px;
     background-color: aqua;
     width: 25px;
@@ -69,4 +69,19 @@
     border-radius: 20px !important;
     width: 90% !important;
     margin-left: 5% !important;
+}
+.home-wrapper{
+    background-image: url("/public/bg.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+}
+.foot-nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1010;
+}
+.foot-nav .cxd-GridNavItem-content{
+    padding: 1px 0;
 }
